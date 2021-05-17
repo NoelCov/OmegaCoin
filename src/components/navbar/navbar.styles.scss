@@ -1,0 +1,25 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #94E8C9;
+  height: 60px;
+  padding: 0 25px;
+
+  .navbar-title {
+    font-size: 22px;
+    font-weight: 400;
+  }
+
+  .links-container {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .link {
+    text-decoration: none;
+    color: black;
+    margin: 0 15px;
+    font-size: 14px;
+  }
+}
