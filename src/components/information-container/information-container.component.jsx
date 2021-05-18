@@ -5,7 +5,7 @@ import data from "./data.js";
 
 export const InformationContainer = () => {
   return (
-    <div className="information-container">
+    <div className="information-container" id="information">
       {data.map((child) => (
         <PersonalizedContainer
           title={child.title}
