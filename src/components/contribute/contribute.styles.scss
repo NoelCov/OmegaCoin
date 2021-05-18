@@ -1,0 +1,45 @@
+.contribute-container {
+  width: 90%;
+  background-color: #94E8C9;
+  color: black;
+  margin: 40px auto;
+  padding: 30px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+  .contribute-image {
+    width: 300px;
+  }
+
+  .information-container {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+
+    .contribute-title {
+      font-size: 30px;
+      font-weight: 500;
+    }
+
+    .contribute-text {
+      font-size: 18px;
+      line-height: 2rem;
+    }
+
+    .contribute-link {
+      max-width: 160px;
+      background-color: black;
+      font-size: 13px;
+      height: 40px;
+    }
+
+    .contribute-link:hover {
+      background-color: white;
+      color: black;
+      transform: scale(1.02);
+      transition: 0.3s;
+    }
+    
+  }
+}

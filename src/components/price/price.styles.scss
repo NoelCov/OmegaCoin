@@ -1,0 +1,29 @@
+.price-container {
+  display: flex;
+  color: white;
+  margin: 100px auto;
+  justify-content: center;
+  align-items: center;
+  border-style: solid;
+  padding: 20px;
+  width: 200px;
+  border-radius: 8px;
+  border-color: #94E8C9;
+
+  .info-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 3px;
+  }
+
+  .image {
+    width: 100px;
+    height: 100px;
+  }
+
+  .coin-symbol {
+    font-weight: 500;
+  }
+}
