@@ -8,7 +8,7 @@
   padding: 20px;
   width: 200px;
   border-radius: 8px;
-  border-color: #94E8C9;
+  border-color: #94e8c9;
 
   .info-container {
     display: flex;
@@ -25,5 +25,31 @@
 
   .coin-symbol {
     font-weight: 500;
+  }
+}
+
+@media only screen and (max-width: 680px) {
+  .price-container {
+    margin: 60px auto;
+    padding: 12px;
+    width: 180px;
+
+    .coin-symbol {
+      line-height: 2px;
+      font-size: 15px;
+    }
+
+    .coin-name {
+      font-size: 12px;
+    }
+
+    .coin-price {
+      font-size: 12px;
+    }
+
+    .image {
+      height: 60px;
+      width: 60px;
+    }
   }
 }

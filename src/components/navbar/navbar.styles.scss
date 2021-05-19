@@ -2,7 +2,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #94E8C9;
+  background-color: #94e8c9;
   height: 60px;
   padding: 0 30px;
 
@@ -20,11 +20,31 @@
       text-decoration: none;
       color: black;
       font-size: 16px;
-  
+
       &:hover {
-        transform:scale(1.1);
-        color:darkorchid;
+        transform: scale(1.1);
+        color: darkorchid;
         font-weight: 400;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 680px) {
+  .navbar {
+    padding: 0 15px;
+
+    .navbar-title {
+      font-size: 20px;
+      font-weight: 600;
+    }
+
+    .links-container {
+      width: 60%;
+      justify-content: space-around;
+
+      .link {
+        font-size: 12px;
       }
     }
   }

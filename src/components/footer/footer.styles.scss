@@ -15,7 +15,7 @@
       font-size: 25px;
       margin: 0 15px;
     }
-    
+
     .footer-year {
       font-size: 12px;
       padding-bottom: 5px;
@@ -33,7 +33,33 @@
 
       &:hover {
         color: rgb(170, 113, 6);
-        transform:scale(1.2)
+        transform: scale(1.2);
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 680px) {
+  .footer {
+    padding: 10px 15px;
+
+    .footer-text-container {
+      .footer-symbol {
+        font-size: 18px;
+        margin: 0 10px;
+      }
+
+      .footer-year {
+        font-size: 10px;
+        padding-bottom: 3px;
+      }
+    }
+
+    .footer-icons-container {
+      width: 40%;
+
+      .footer-icon {
+        font-size: 20px;
       }
     }
   }
