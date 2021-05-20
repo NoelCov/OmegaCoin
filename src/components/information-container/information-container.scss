@@ -5,18 +5,18 @@
   margin: 40px 0 20px;
 }
 
-@media only screen and (max-width: 680px) {
-  .information-container {
-    grid-template-columns: 280px;
-    margin: 30px auto;
-    row-gap: 20px;
-  }
-}
-
-@media only screen and (max-width: 980px) {
+@media screen and (max-width: 800px) {
   .information-container {
     grid-template-columns: 580px;
     row-gap: 60px;
     margin: 20px auto;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .information-container {
+    grid-template-columns: 380px;
+    margin: 30px auto;
+    row-gap: 30px;
   }
 }

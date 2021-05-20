@@ -39,7 +39,29 @@
   }
 }
 
-@media only screen and (max-width: 680px) {
+@media screen and (max-width: 800px) {
+  .footer {
+    padding: 15px;
+    margin-top: 40px;
+
+    .footer-text-container {
+      .footer-symbol {
+        font-size: 22px;
+      }
+
+      .footer-year {
+        font-size: 12px;
+      }
+    }
+
+    .footer-icons-container {
+      width: 60%;
+      justify-content: space-around;
+    }
+  }
+}
+
+@media screen and (max-width: 480px) {
   .footer {
     padding: 10px 15px;
 
@@ -61,28 +83,6 @@
       .footer-icon {
         font-size: 20px;
       }
-    }
-  }
-}
-
-@media only screen and (max-width: 980px) {
-  .footer {
-    padding: 15px;
-    margin-top: 40px;
-
-    .footer-text-container {
-      .footer-symbol {
-        font-size: 22px;
-      }
-
-      .footer-year {
-        font-size: 12px;
-      }
-    }
-
-    .footer-icons-container {
-      width: 60%;
-      justify-content: space-around;
     }
   }
 }
