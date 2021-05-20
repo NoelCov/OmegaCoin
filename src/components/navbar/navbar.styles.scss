@@ -49,3 +49,22 @@
     }
   }
 }
+
+@media only screen and (max-width: 980px) {
+  .navbar {
+    padding: 0 20px;
+
+    .navbar-title {
+      font-size: 22px;
+    }
+
+    .links-container {
+      width: 40%;
+      justify-content: space-between;
+    }
+
+    .link {
+      font-size: 15px;
+    }
+  }
+}

@@ -2,7 +2,7 @@
   display: grid;
   grid-template-columns: 700px 700px;
   justify-content: space-evenly;
-  margin: 60px 0 20px;
+  margin: 40px 0 20px;
 }
 
 @media only screen and (max-width: 680px) {
@@ -10,5 +10,13 @@
     grid-template-columns: 280px;
     margin: 30px auto;
     row-gap: 20px;
+  }
+}
+
+@media only screen and (max-width: 980px) {
+  .information-container {
+    grid-template-columns: 580px;
+    row-gap: 60px;
+    margin: 20px auto;
   }
 }

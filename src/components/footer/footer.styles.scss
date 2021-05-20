@@ -64,3 +64,25 @@
     }
   }
 }
+
+@media only screen and (max-width: 980px) {
+  .footer {
+    padding: 15px;
+    margin-top: 40px;
+
+    .footer-text-container {
+      .footer-symbol {
+        font-size: 22px;
+      }
+
+      .footer-year {
+        font-size: 12px;
+      }
+    }
+
+    .footer-icons-container {
+      width: 60%;
+      justify-content: space-around;
+    }
+  }
+}

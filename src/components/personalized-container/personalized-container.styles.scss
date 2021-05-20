@@ -33,3 +33,18 @@
     }
   }
 }
+
+@media only screen and (max-width: 980px) {
+  .container {
+    padding: 10px 20px;
+    line-height: 2.2rem;
+
+    .container-title {
+      font-size: 18px;
+    }
+
+    .container-information {
+      font-size: 18px;
+    }
+  }
+}

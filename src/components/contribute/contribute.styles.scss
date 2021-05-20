@@ -75,3 +75,34 @@
     }
   }
 }
+
+@media only screen and (max-width: 980px) {
+  .contribute-container {
+    width: 80%;
+    flex-direction: row;
+    margin: 5px auto;
+
+    .contribute-image {
+      width: 200px;
+    }
+
+    .information-container {
+      width: 60%;
+
+      .contribute-title {
+        font-size: 20px;
+      }
+
+      .contribute-text {
+        font-size: 16px;
+      }
+
+      .contribute-link {
+        margin: 5px 0;
+        max-width: 140px;
+        height: 35px;
+        font-size: 12px;
+      }
+    }
+  }
+}
